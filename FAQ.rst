@@ -150,7 +150,7 @@ The terms are a bit confusing and may be refactored in a future version of Covas
 
 **TLDR?** Except for a few corner cases (e.g., calculating transmission trees), you should get nearly identical results with and without dynamic rescaling, so feel free to use it (it's turned on by default). That said, it's always best to use as small of a population scale factor as you can, although once you reach roughly 200,000 agents, using more agents shouldn't make much difference.
 
-This example illustrates the three different ways to simulation a population of 100,000 people:
+This example illustrates the three different ways to simulation a population of 200,000 people:
 
 .. code-block:: python
 
